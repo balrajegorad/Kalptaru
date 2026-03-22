@@ -1,0 +1,209 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "loanSchemes": "Loan Schemes",
+    "depositSchemes": "Deposit Schemes",
+    "contact": "Contact",
+    "applyNow": "Apply Now",
+    "applyForLoan": "Apply for Loan",
+    "switchLang": "मराठी"
+  },
+  "footer": {
+    "tagline": "Empowering rural communities with accessible financial services, trusted cooperative banking, and reliable growth support.",
+    "quickLinks": "Quick Links",
+    "aboutOrg": "About Organization",
+    "contactUs": "Contact Us",
+    "ourServices": "Our Services",
+    "personalLoans": "Personal Loans",
+    "businessLoans": "Business & SME Loans",
+    "goldLoans": "Gold Loans",
+    "fixedDeposits": "Fixed Deposits",
+    "recurringDeposits": "Recurring Deposits",
+    "savingsAccounts": "Savings Accounts",
+    "contactInfo": "Contact Info",
+    "address": "Kalpataru Patsanstha Mhaswad Road, Goradwadi Malshiras, Solapur – 413107",
+    "hours": "Mon - Sat: 9:00 AM - 5:00 PM",
+    "copyright": "Kalpataru Patsanstha. All rights reserved.",
+    "regNo": "Reg. No: SUR/MRS/RSR (R)/1508"
+  },
+  "home": {
+    "badge": "Now open – secure savings and easy loans",
+    "heroTitle1": "Trusted Financial Support",
+    "heroTitle2": "for Rural Growth",
+    "heroSubtitle": "Empowering rural communities with accessible loans and secure savings. Your trusted cooperative credit society for all financial needs.",
+    "applyLoan": "Apply for Loan",
+    "knowMore": "Know More",
+    "stats": [
+      { "value": "5+", "label": "Financial Services" },
+      { "value": "24 × 7", "label": "Customer Support" },
+      { "value": "100%", "label": "Secure Transactions" },
+      { "value": "01", "label": "Local Branch" }
+    ],
+    "servicesTag": "What We Offer",
+    "servicesTitle": "Comprehensive Financial Solutions",
+    "viewDetails": "View Details →",
+    "services": [
+      { "title": "Personal Loan", "desc": "Quick financial support for your personal needs, medical emergencies, or family events.", "href": "/loan-schemes" },
+      { "title": "Business Loan", "desc": "Capital to expand your shop, buy inventory, or start a new rural enterprise.", "href": "/loan-schemes" },
+      { "title": "Gold Loan", "desc": "Instant cash against your gold jewelry with safe storage and low interest rates.", "href": "/loan-schemes" },
+      { "title": "Fixed Deposit", "desc": "Secure your future with attractive interest rates up to 9% p.a. on your savings.", "href": "/deposit-schemes" },
+      { "title": "Recurring Deposit", "desc": "Build wealth gradually with small monthly contributions and high returns.", "href": "/deposit-schemes" }
+    ],
+    "whyTag": "Why Choose Us",
+    "whyTitle": "A Financial Partner You Can Trust",
+    "whyDesc": "Unlike large commercial banks, we understand the unique challenges of rural economies. Our cooperative model ensures that our profits directly benefit our members.",
+    "whyPoints": [
+      { "title": "A New Beginning with Trusted Service", "desc": "Committed to providing secure, transparent, and reliable financial services to the community." },
+      { "title": "Local & Personal Service", "desc": "We know our members by name, not just by account numbers. Experience banking with a human touch." },
+      { "title": "Quick Loan Approval", "desc": "Minimal paperwork and fast processing times for all loan applications." },
+      { "title": "Competitive Interest Rates", "desc": "Fair rates on loans and higher returns on your deposits compared to traditional banks." }
+    ],
+    "govtReg": "Government Registered",
+    "regNo": "SUR/MRS/RSR (R)/1508",
+    "ctaTitle": "Ready to secure your financial future?",
+    "ctaDesc": "Join thousands of happy members and experience the cooperative advantage today.",
+    "becomeMember": "Become a Member",
+    "contactUs": "Contact Us"
+  },
+  "about": {
+    "pageTitle": "About Kalpataru Patsanstha",
+    "pageDesc": "A legacy of trust, transparency, and rural empowerment.",
+    "introTitle": "Building a Foundation of Trust",
+    "intro1": "Kalpataru Patsanstha has been established to provide secure, accessible, and transparent financial services to rural Maharashtra.",
+    "intro2": "Built on cooperative principles, the institution operates on mutual support and shared responsibility. Our members are not just customers — they are stakeholders.",
+    "intro3": "Our objective is to offer reliable savings options and simple loan facilities while supporting long-term financial stability in the local community.",
+    "dedication": "100% dedicated to local community development and financial inclusion.",
+    "missionTitle": "Our Mission",
+    "missionDesc": "To provide timely, affordable, and transparent financial products to rural citizens, eliminating dependency on informal moneylenders. We strive to cultivate a habit of savings while offering credit that fuels enterprise and personal well-being.",
+    "visionTitle": "Our Vision",
+    "visionDesc": "To be the most trusted and preferred cooperative financial institution in the region, recognized for our ethical practices, technological adaptation, and unwavering commitment to the socio-economic upliftment of our members.",
+    "leadershipTag": "Leadership",
+    "leadershipTitle": "Our Board of Directors",
+    "leadershipDesc": "Guided by experienced leaders dedicated to cooperative principles.",
+    "members": [
+      { "name": "Ramesh Patil", "role": "Chairman", "desc": "Leading the vision of cooperative growth with 30 years of experience." },
+      { "name": "Sunita Deshmukh", "role": "Secretary", "desc": "Managing operations and ensuring transparent communication with members." },
+      { "name": "Vijay Jadhav", "role": "Treasurer", "desc": "Safeguarding the financial health and integrity of the society." },
+      { "name": "Priya Shinde", "role": "Director", "desc": "Advocating for women empowerment and rural micro-finance." },
+      { "name": "Suresh Kulkarni", "role": "Director", "desc": "Expert in agricultural loans and local economy development." },
+      { "name": "Meena Pawar", "role": "Director", "desc": "Driving community outreach and new member acquisition." }
+    ]
+  },
+  "loans": {
+    "pageTitle": "Loan Schemes",
+    "pageDesc": "Affordable credit solutions designed to support your dreams and drive our community's prosperity.",
+    "interestRate": "Interest Rate",
+    "maxAmount": "Max Amount",
+    "tenure": "Tenure",
+    "applyNow": "Apply Now",
+    "noteTitle": "Important Note",
+    "noteDesc": "All loan approvals are subject to the society's credit policies and applicant's repayment capacity. Two guarantors who are active members may be required for certain loan types.",
+    "items": [
+      {
+        "id": "personal_loan",
+        "title": "Personal Loan",
+        "description": "Quick financial support for your personal needs, medical emergencies, education, or family events.",
+        "interest": "12% p.a.",
+        "maxAmount": "₹5 Lakhs",
+        "tenure": "1 - 5 years",
+        "features": ["Minimal documentation", "Fast processing", "No hidden charges"]
+      },
+      {
+        "id": "business_loan",
+        "title": "Business Loan",
+        "description": "Capital to expand your shop, buy inventory, or start a new rural enterprise to boost local economy.",
+        "interest": "14% p.a.",
+        "maxAmount": "₹25 Lakhs",
+        "tenure": "1 - 7 years",
+        "features": ["Flexible repayment", "Support for MSMEs", "Business guidance"]
+      },
+      {
+        "id": "gold_loan",
+        "title": "Gold Loan",
+        "description": "Instant cash against your gold jewelry with highly secure storage and immediate disbursal.",
+        "interest": "10% p.a.",
+        "maxAmount": "₹10 Lakhs",
+        "tenure": "Flexible",
+        "features": ["Disbursal in 30 mins", "Highest per gram rate", "100% safe storage"]
+      }
+    ]
+  },
+  "deposits": {
+    "pageTitle": "Deposit Schemes",
+    "pageDesc": "Safe, secure, and rewarding ways to grow your hard-earned money with your trusted cooperative.",
+    "ratesUpTo": "Interest Rates up to",
+    "minAmount": "Min. Amount",
+    "tenure": "Tenure",
+    "openAccount": "Open Account",
+    "items": [
+      {
+        "id": "fixed_deposit",
+        "title": "Fixed Deposit",
+        "description": "Grow your lump sum savings securely with our highly attractive interest rates over a fixed tenure.",
+        "rates": "7.5% - 9% p.a.",
+        "minAmount": "₹5,000",
+        "tenure": "1 - 5 years",
+        "features": ["Higher rates for Senior Citizens", "Quarterly interest payout option", "Premature withdrawal facility"]
+      },
+      {
+        "id": "recurring_deposit",
+        "title": "Recurring Deposit",
+        "description": "Build a large corpus by depositing small, manageable amounts every month.",
+        "rates": "7% - 8.5% p.a.",
+        "minAmount": "₹500 / month",
+        "tenure": "1 - 5 years",
+        "features": ["Inculcates savings habit", "Loan against RD available", "Flexible tenure options"]
+      },
+      {
+        "id": "savings_account",
+        "title": "Savings Account",
+        "description": "A standard account to keep your daily funds safe while earning steady interest.",
+        "rates": "4% p.a.",
+        "minAmount": "No Minimum",
+        "tenure": "Lifetime",
+        "features": ["Free passbook facility", "Easy deposit and withdrawal", "Nomination facility available"]
+      }
+    ]
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageDesc": "We are here to help. Reach out for any inquiries regarding our loans, deposits, or membership.",
+    "getInTouch": "Get in Touch",
+    "getInTouchDesc": "Visit our branch or fill out the form, and our staff will guide you through our services.",
+    "branchAddress": "Branch Address",
+    "addressText": "Kalpataru Patsanstha Goradwadi, \nMalshiras Solapur District \nMaharashtra – 413107",
+    "phone": "Phone Number",
+    "email": "Email",
+    "hours": "Working Hours",
+    "hoursText": "Mon-Sat: 9AM - 5PM",
+    "mapTitle": "Google Maps Embed",
+    "mapSubtitle": "Goradwadi, Maharashtra",
+    "formTitle": "Send an Inquiry",
+    "formDesc": "Fill out the details below and we will contact you.",
+    "nameLabel": "Full Name *",
+    "namePlaceholder": "Enter your full name",
+    "phoneLabel": "Mobile Number *",
+    "phonePlaceholder": "e.g. 9876543210",
+    "serviceLabel": "Interested In *",
+    "servicePlaceholder": "Select a service",
+    "messageLabel": "Additional Message (Optional)",
+    "messagePlaceholder": "Any specific questions?",
+    "submit": "Submit Inquiry",
+    "submitting": "Submitting...",
+    "secureText": "Your information is secure and confidential",
+    "successMsg": "Inquiry submitted successfully! Our representative will contact you shortly.",
+    "errorMsg": "There was an error submitting your inquiry. Please try again.",
+    "nameError": "Name must be at least 2 characters.",
+    "phoneError": "Please enter a valid 10-15 digit phone number.",
+    "services": [
+      { "value": "personal_loan", "label": "Personal Loan" },
+      { "value": "business_loan", "label": "Business Loan" },
+      { "value": "gold_loan", "label": "Gold Loan" },
+      { "value": "fixed_deposit", "label": "Fixed Deposit" },
+      { "value": "recurring_deposit", "label": "Recurring Deposit" },
+      { "value": "savings_account", "label": "Savings Account" },
+      { "value": "other", "label": "General Inquiry / Other" }
+    ]
+  }
+}

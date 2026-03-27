@@ -46,7 +46,7 @@ export default function Navbar() {
            */}
           <div>
             <div className="navbar__logo-name">{isMr ? 'कल्पतरू' : 'Kalpataru'}</div>
-            <div className="navbar__logo-sub">{isMr ? 'पतसंस्था' : 'Patsanstha'}</div>
+            <div className="navbar__logo-sub">{isMr ? 'ग्रामीण बिगर शेती सहकारी मर्या. पतसंस्था' : 'Gramin Bigar Sheti Sahakari Maryadit Patsanstha'}</div>
           </div>
         </Link>
 

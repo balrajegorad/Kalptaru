@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import ImageSlider from "../components/ImageSlider";
 import aboutImg from "../assets/about-bg.png";
 import './Home.css';
 
@@ -121,7 +122,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <ImageSlider />
       <Footer />
     </div>
   );

@@ -1,0 +1,159 @@
+.image-slider-section {
+    background: #F8F9FA;
+    padding: 28px 0;
+    overflow: hidden;
+    /* Prevent horizontal scroll on body */
+}
+
+.slider-title {
+    color: var(--primary);
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.slider-title span {
+    margin: 0 8px;
+    opacity: 0.7;
+}
+.slider-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background: var(--primary);
+}
+
+.slider-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    /* Optional: keeps slider from getting too wide */
+    margin: 0 auto;
+}
+
+.slider-container {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    gap: 20px;
+    /* Reduced gap for better fit */
+    padding: 10px 0;
+    width: 100%;
+    /* Snapping makes the scroll feel professional */
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.slider-container::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari */
+}
+
+.slide {
+    /* Using calc to subtract the gap so 2 slides fit perfectly */
+    flex: 0 0 calc(50% - 10px);
+    scroll-snap-align: start;
+    transition: transform 0.3s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: 300px;
+    /* Increased height for better aspect ratio */
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid #E9ECEF;
+    display: block;
+}
+
+/* ARROWS - Improved Positioning */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.arrow:hover {
+    background: var(--primary, #000);
+    color: white;
+}
+
+.arrow.left {
+    left: 48px;
+}
+
+.arrow.right {
+    right: 48px;
+}
+
+/* DOTS */
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: #ddd;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.dot.active {
+    background: orange;
+    width: 25px;
+    /* Modern elongated active dot */
+    border-radius: 5px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .slide {
+        flex: 0 0 100%;
+        /* Single slide on mobile */
+    }
+
+    .arrow.left{
+        left: 28px;
+    }
+
+    .arrow.right {
+        right: 28px;
+    }
+
+    .slider-container {
+        gap: 0;
+        /* No gap needed if 100% width */
+    }
+
+    .slider-title {
+        font-size: 20px;
+    }
+}

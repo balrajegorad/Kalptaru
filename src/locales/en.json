@@ -82,12 +82,15 @@
     "leadershipTitle": "Our Board of Directors",
     "leadershipDesc": "Guided by experienced leaders dedicated to cooperative principles.",
     "members": [
-      { "name": "Ramesh Patil", "role": "Chairman", "desc": "Leading the vision of cooperative growth with 30 years of experience." },
-      { "name": "Sunita Deshmukh", "role": "Secretary", "desc": "Managing operations and ensuring transparent communication with members." },
-      { "name": "Vijay Jadhav", "role": "Treasurer", "desc": "Safeguarding the financial health and integrity of the society." },
-      { "name": "Priya Shinde", "role": "Director", "desc": "Advocating for women empowerment and rural micro-finance." },
-      { "name": "Suresh Kulkarni", "role": "Director", "desc": "Expert in agricultural loans and local economy development." },
-      { "name": "Meena Pawar", "role": "Director", "desc": "Driving community outreach and new member acquisition." }
+      { "name": "Dada Narayan Yamgar", "role": "Director", "img": "/images/members/Dada.jpeg", "desc": "Leading the vision of cooperative growth with 30 years of experience." },
+      { "name": "Machindra Bhagvan Gorad", "role": "Director", "img": "/images/members/Machindra.jpeg", "desc": "Managing operations and ensuring transparent communication with members." },
+      { "name": "Bapu Kisan Yamgar", "role": "Director", "img": "/images/members/Bapu.jpeg", "desc": "Safeguarding the financial health and integrity of the society." },
+      { "name": "Balwant Jaywant Gorad", "role": "Director", "img": "/images/members/Balwant.jpeg", "desc": "Advocating for women empowerment and rural micro-finance." },
+      { "name": "Ajay Tatyaba Gorad", "role": "Director", "img": "/images/members/Ajay.jpeg", "desc": "Expert in agricultural loans and local economy development." },
+      { "name": "Datta Shankar Yamgar", "role": "Director", "img": "/images/members/Datta.jpeg", "desc": "Driving community outreach and new member acquisition." },
+      { "name": "Somnath Namdev Gorad", "role": "Director", "img": "/images/members/Somnath.jpeg", "desc": "Advocating for women empowerment and rural micro-finance." },
+      { "name": "Nandabai Duryodhan Gorad", "role": "Director", "img": "/images/members/Nandabai.jpeg", "desc": "Expert in agricultural loans and local economy development." },
+      { "name": "Rani Nana Yamgar", "role": "Director", "img": "/images/members/Rani.jpeg", "desc": "Driving community outreach and new member acquisition." }
     ]
   },
   "loans": {

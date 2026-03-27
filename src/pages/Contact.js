@@ -111,7 +111,7 @@ async function handleSubmit(e) {
                   <div className="contact__detail-icon contact__detail-icon--accent">📞</div>
                   <div>
                     <div className="contact__detail-label">{t('contact.phone')}</div>
-                    <div className="contact__detail-value">+91 96040 60809</div>
+                    <div className="contact__detail-value">+91 98225 35463</div>
                   </div>
                 </div>
                 <div className="contact__detail-grid">

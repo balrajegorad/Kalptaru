@@ -68,10 +68,9 @@ export default function About() {
             <div className="board-grid">
               {members.map((m, i) => (
                 <div key={i} className="board-card">
-                  <div className="board-card__avatar">{m.name.slice(0, 1)}</div>
+                  <img src={m.img} alt={m.name} className="board-card__avatar" onError={(e) => {e.target.src = "/images/default-user.webp";}}/>
                   <h4 className="board-card__name">{m.name}</h4>
                   <p className="board-card__role">{m.role}</p>
-                  <p className="board-card__desc">{m.desc}</p>
                 </div>
               ))}
             </div>

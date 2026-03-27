@@ -72,7 +72,7 @@ export default function Footer() {
             <h3 className="footer__heading">{t('footer.contactInfo')}</h3>
             <ul className="footer__contact-list">
               <li>📍 {t('footer.address')}</li>
-              <li>📞 +91 9604060809</li>
+              <li>📞 +91 98225 35463</li>
               <li>✉ infokalpatarupatsanstha@gmail.com</li>
               <li>🕐 {t('footer.hours')}</li>
             </ul>

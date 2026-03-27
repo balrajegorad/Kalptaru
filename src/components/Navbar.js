@@ -100,7 +100,7 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="navbar__mobile-bottom">
-            <span className="navbar__phone">📞 +91 98765 43210</span>
+            <span className="navbar__phone">📞 +91 98225 35463</span>
             <Link to="/contact" className="btn btn--accent btn--full">{t('nav.applyForLoan')}</Link>
           </div>
         </div>

@@ -78,6 +78,11 @@ async function handleSubmit(e) {
     if (errors[name]) setErrors(e2 => ({ ...e2, [name]: '' }));
   }
 
+
+  const openMap = () => {
+  window.open("https://www.google.com/maps?q=17.795157,74.875265", "_blank");
+  };
+
   return (
     <div className="page">
       <Navbar />
@@ -131,7 +136,7 @@ async function handleSubmit(e) {
                 </div>
               </div>
 
-              <div className="contact__map-placeholder">
+              <div className="contact__map-placeholder" onClick={openMap}>
                 <span>📍</span>
                 <div className="contact__map-text">{t('contact.mapTitle')}</div>
                 <div className="contact__map-sub">{t('contact.mapSubtitle')}</div>

@@ -76,29 +76,70 @@
   font-size: 13px;
 }
 
+
+
 .contact__map-placeholder {
-  background: var(--gray-100);
+  background-image: url("../assets/map-demo.png");
+  /* your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   border: 1px solid var(--border);
   border-radius: var(--radius-2xl);
   height: 200px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 6px;
+
   font-size: 32px;
-  color: var(--text-muted);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
+/* overlay for readability */
+.contact__map-placeholder::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: var(--radius-2xl);
+}
+
+/* hover effect */
+.contact__map-placeholder:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
+
+/* text on top of overlay */
+.contact__map-placeholder span,
+.contact__map-text,
+.contact__map-sub {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.contact__detail-icon,
+.contact__map-text,
+.contact__map-sub {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* text styles */
 .contact__map-text {
   font-size: 14px;
   font-weight: 700;
-  color: var(--text);
 }
 
 .contact__map-sub {
   font-size: 13px;
-  color: var(--text-muted);
+  opacity: 0.9;
 }
 
 /* Form */

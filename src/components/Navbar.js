@@ -17,8 +17,9 @@ export default function Navbar() {
   const navLinks = [
     { name: t('nav.home'), href: '/' },
     { name: t('nav.about'), href: '/about' },
-    { name: t('nav.loanSchemes'), href: '/loan-schemes' },
     { name: t('nav.depositSchemes'), href: '/deposit-schemes' },
+    { name: t('nav.loanSchemes'), href: '/loan-schemes' },
+    
     { name: t('nav.contact'), href: '/contact' },
   ];
 

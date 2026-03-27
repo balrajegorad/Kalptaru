@@ -68,7 +68,7 @@ export default function About() {
             <div className="board-grid">
               {members.map((m, i) => (
                 <div key={i} className="board-card">
-                  <img src={m.img} alt={m.name} className="board-card__avatar" onError={(e) => {e.target.src = "/images/default-user.webp";}}/>
+                  <img src={m.img} alt={m.name} className="board-card__avatar" onError={(e) => {e.target.src = "/images/default-user.webp";}} loading="lazy"/>
                   <h4 className="board-card__name">{m.name}</h4>
                   <p className="board-card__role">{m.role}</p>
                 </div>

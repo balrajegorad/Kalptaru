@@ -65,7 +65,7 @@ export default function Navbar() {
 
         {/* Desktop Actions */}
         <div className="navbar__actions">
-          <span className="navbar__phone">📞 +91 9604060809</span>
+          <span className="navbar__phone">📞 +91 9822535463</span>
           <button className="navbar__lang-btn" onClick={toggleLanguage}>
             🌐 {t('nav.switchLang')}
           </button>

@@ -37,7 +37,7 @@ export default function Footer() {
               <img src={logo} alt="Kalpataru Logo" className='footer-logo' />
               <div>
                 <div className="footer__logo-name">{isMr ? 'कल्पतरू' : 'Kalpataru'}</div>
-                <div className="footer__logo-sub">{isMr ? 'ग्रामीण बिगर शेती सहकारी मर्या. पतसंस्था' : 'Gramin Bigar Sheti Sahakari Maryadit Patsanstha'}</div>
+                <div className="footer__logo-sub">{isMr ? 'ग्रामीण बिगर शेती सहकारी पतसंस्था मर्या.' : 'Gramin Bigar Sheti Sahakari Patsanstha Marya.'}</div>
               </div>
             </div>
             <p className="footer__tagline">{t('footer.tagline')}</p>

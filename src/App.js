@@ -6,11 +6,14 @@ import About from './pages/About';
 import LoanSchemes from './pages/LoanSchemes';
 import DepositSchemes from './pages/DepositSchemes';
 import Contact from './pages/Contact';
+import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   return (
     <LanguageProvider>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

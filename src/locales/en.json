@@ -86,13 +86,13 @@
     "leadershipDesc": "Guided by experienced leaders dedicated to cooperative principles.",
     "members": [
       { "name": "Shri Dada Narayan Yamgar", "role": "Chairman", "img": "/images/members/Dada.webp", "desc": "Leading the vision of cooperative growth with 30 years of experience." },
-      { "name": "Dr. Shri Machindra Bhagvan Gorad", "role": "Vice Chairman", "img": "/images/members/Machindra.webp", "desc": "Managing operations and ensuring transparent communication with members." },
+      { "name": "Smt. Nandabai Duryodhan Gorad", "role": "Vice Chairman", "img": "/images/members/Nandabai.webp", "desc": "Expert in agricultural loans and local economy development." },
+      { "name": "Dr. Shri Machindra Bhagvan Gorad", "role": "Director", "img": "/images/members/Machindra.webp", "desc": "Managing operations and ensuring transparent communication with members." },
       { "name": "Shri Balwant Jaywant Gorad", "role": "Director", "img": "/images/members/Balwant.webp", "desc": "Advocating for women empowerment and rural micro-finance." },
       { "name": "Shri Bapu Kisan Yamgar", "role": "Director", "img": "/images/members/Bapu.webp", "desc": "Safeguarding the financial health and integrity of the society." },
       { "name": "Shri Ajay Tatyaba Gorad", "role": "Director", "img": "/images/members/Ajay.webp", "desc": "Expert in agricultural loans and local economy development." },
       { "name": "Shri Dattatraya Shankar Yamgar", "role": "Director", "img": "/images/members/Datta.webp", "desc": "Driving community outreach and new member acquisition." },
       { "name": "Shri Somnath Namdev Gorad", "role": "Director", "img": "/images/members/Somnath.webp", "desc": "Advocating for women empowerment and rural micro-finance." },
-      { "name": "Smt. Nandabai Duryodhan Gorad", "role": "Director", "img": "/images/members/Nandabai.webp", "desc": "Expert in agricultural loans and local economy development." },
       { "name": "Smt. Rani Nana Yamgar", "role": "Director", "img": "/images/members/Rani.webp", "desc": "Driving community outreach and new member acquisition." }
     ]
   },
